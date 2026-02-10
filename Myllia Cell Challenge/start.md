@@ -24,3 +24,6 @@ channel（バッチ）内で non-targeting を引いた log fold change（logFC�
 出力側 PCA（n_components=10）＋ Ridge（alpha=300）で回帰
 Public 用の 60 摂動のみ予測を上書きし、残り 60 は baseline を保持（仕様どおり）
 NaN の無い提出用 CSV を生成
+
+## 気づき
+Public LB は参考値に過ぎず、CV の安定性を優先する設計が重要
